@@ -1,0 +1,51 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+credentials
+credentials.*
+aws-credentials*
+config.ini
+secrets.*
+
+# Local databases and data
+*.db
+*.sqlite
+*.sqlite3
+data/
+database/
+mesh_data.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+hybridmesh-env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.tar
+*.tar.gz
